@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tileset" tilewidth="16" tileheight="16">
+  <image source="../images/tileset.png" width="800" height="1280"/>
+  <tile id="3767">
+   <properties>
+    <property name="type" value="playerStart"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="backgroundLayer" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt0rENgDAMRNETSxFnIyBjZrC4ACkNoiNX/OIX11lP7pvUzTslXVnLDq3dMfXcV+5ds10+29Fv3vjhhx9++Hl44Ycffvjhhx9+6zd++OH37RcmXm9+YeLF/+GHH35/+zk3AEI6Q7o=
+  </data>
+ </layer>
+ <layer name="blockedLayer" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzdmVEOgjAMhsU9kngOHnziKN7MM0l40RuhRhZDMpd2/VsGQ5o0BFLaj3+lLKE/Hg79xn0J62bk9fd2BN90nXMkJo63sKb4Lifawxpn9z33R7QedZSM4xvqNJ+mBsXVOux+Sb/7yPmoaT7KOF0p3RBGie81sr0jPk3/Ub0bmsSI9N+g0E8yn6ONtE0xcnzhunL9N8VbNEQZOb5wXSdWjg+1eN4gjMj6TqwpPssMRBgpvmdNu8RHcUgzOvU8HN+1oj0nH8cTG8V3q2hfSj8tH9JLVPwafLltbf0s3rj8fEtYLj5tHfR5kO9xaT7kWmhWvsb9npfik3p+C3yehfI98cVzwe8DrPvnOC9SWxszl087g1E+bU7L+8vVtsRI3z+rfqX5NLVK6YfuUxGt/2V9U7lyrS9X2xKzVz7NjCrFh9az9CyXJzWfNZpIz83F53o/cvMhhvChNUvzbcVK/zdA/AO9VMPo
+  </data>
+ </layer>
+ <objectgroup name="objectsLayer">
+  <object name="Gem1" gid="3669" x="514" y="435">
+   <properties>
+    <property name="sprite" value="gem"/>
+    <property name="type" value="item"/>
+   </properties>
+  </object>
+  <object name="Gem2" gid="3669" x="16" y="33">
+   <properties>
+    <property name="sprite" value="gem"/>
+    <property name="type" value="item"/>
+   </properties>
+  </object>
+  <object name="Gem3" gid="3669" x="289" y="193">
+   <properties>
+    <property name="sprite" value="gem"/>
+    <property name="type" value="item"/>
+   </properties>
+  </object>
+  <object name="Gem4" gid="3669" x="239" y="433">
+   <properties>
+    <property name="sprite" value="gem"/>
+    <property name="type" value="item"/>
+   </properties>
+  </object>
+  <object name="Gem5" gid="3669" x="33" y="592">
+   <properties>
+    <property name="sprite" value="gem"/>
+    <property name="type" value="item"/>
+   </properties>
+  </object>
+  <object name="Gem6" gid="3669" x="607" y="535">
+   <properties>
+    <property name="sprite" value="gem"/>
+    <property name="type" value="item"/>
+   </properties>
+  </object>
+  <object name="Player" gid="3768" x="596" y="612">
+   <properties>
+    <property name="type" value="playerStart"/>
+   </properties>
+  </object>
+  <object gid="3705" x="352" y="192">
+   <properties>
+    <property name="sprite" value="ladder"/>
+    <property name="type" value="ladder"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
